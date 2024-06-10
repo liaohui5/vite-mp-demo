@@ -1,0 +1,12 @@
+extends /layouts/main
+
+//- 使用 index.pug.json 覆盖默认的 /data/default.json 中的内容
+//- 比如覆盖标题
+
+block append styles
+  link(rel="stylesheet", href="/src/styles/base.scss")
+
+block content
+  h2 home
+  button(class="bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white hover:bg-indigo-500")
+    | TailwindCSS Button

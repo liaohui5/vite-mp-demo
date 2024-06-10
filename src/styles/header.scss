@@ -1,0 +1,17 @@
+.navs,
+.nav-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navs {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navs .nav-item {
+  padding: 10px 20px;
+}

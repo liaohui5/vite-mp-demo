@@ -1,0 +1,10 @@
+extends /layouts/main
+
+//- 覆盖父模板的 block
+block content
+  h2 about
+  h2 about-contents
+
+//- 父模板原有 scripts block 基础上追加内容
+block append scripts
+  script(src="/src/scripts/header.js" type="module") 
